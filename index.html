@@ -72,6 +72,65 @@
         <a href="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
+        <div class="modal">
+            <div class="modal__half modal__about">
+                <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
+                <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer</h4>
+                <p class="modal__para">
+                    I'm a 19 year-old German <b class="highlight">frontend software engineer</b>  with a strong passion for developing webistes with great <b class="highlight">user experiences.</b>
+                    <br>
+                    I am currently studying computer science while also working on extremely difficult engineering problem aswell as learning from a team consisting of some of the most <b class="highlight">talented</b> and <b class="highlight">experienced</b> software engineers every day
+                </p>
+                <div class="modal__languages">
+                    <figure class="modal__language">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="Html Logo" class="modal__language--img">
+                        <span class="language__name">Html</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo" class="modal__language--img">
+                        <span class="language__name">CSS</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript Logo" class="modal__language--img">
+                        <span class="language__name">Javascript</span>
+                    </figure>
+                    <figure class="modal__language">
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React Logo" class="modal__language--img">
+                        <span class="language__name">React</span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal__half modal__contact">
+                <h3 class="modal__title modal__title--contact">
+                    Let's have a chat!
+                </h3> 
+                <h4 class="modal__sub-title modal__sub-title--contact">
+                    I'm currently open to new opportunities.
+                </h4>
+                <form id="contact__form" action="">
+                    <div class="form__item">
+                        <label class="form__item--label">Name</label>
+                        <input class="input" name="user_name" type="text" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Email</label>
+                        <input class="input" name="user_email" type="email" required></input>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Message</label>
+                        <textarea class="input" name="message" type="text" required></textarea>
+                    </div>
+                    <button id="contact__submit" class="form__submit">Send it my way</button>
+                </form>
+                <div class="modal__overlay modal__overlay--loading">
+                    <i class="fas fa-spinner"></i>
+                </div>
+                <div class="modal__overlay modal__overlay--success">
+                    Thanks for the message! Looking forward to speaking to you soon.
+                </div>
+            </div>
+            <i class="fas fa-times modal__exit click"></i>
+        </div>
     </section>
     <section id="projects">
         <div class="container">
@@ -168,23 +227,23 @@
             <div class="footer__social--list">
                 <a href="" class="
                 footer__social--link
-                liver__hover-effect
-                liver__hover-effect--white
-                ">Github</a>
+                link__hover-effect
+                link__hover-effect--white
+                ">GitHub</a>
                 <a href="" class="
                 footer__social--link
-                liver__hover-effect
-                liver__hover-effect--white
+                link__hover-effect
+                link__hover-effect--white
                 ">LinkedIn</a>
                 <a href="" class="
                 footer__social--link
-                liver__hover-effect
-                liver__hover-effect--white
-                ">Email</a>
+                link__hover-effect
+                link__hover-effect--white
+                ">Contact</a>
                 <a href="" class="
                 footer__social--link
-                liver__hover-effect
-                liver__hover-effect--white
+                link__hover-effect
+                link__hover-effect--white
                 ">Resume</a>
             </div>
             <div class="footer__copyright">Copyright &copy; 2022 Joshua Schridde</div>
